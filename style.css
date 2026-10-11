@@ -1,0 +1,795 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f3f0e9;
+  color: #050505;
+  font-family: "Space Mono", monospace;
+}
+
+.nav {
+  height: 90px;
+  background: #050505;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 5vw;
+}
+
+.logo {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 25px;
+  line-height: .75;
+  transform: rotate(-4deg);
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  min-height: 700px;
+  background: #050505;
+  color: white;
+  padding: 80px 8vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero h1 {
+  font-family: "Archivo Black", sans-serif;
+  font-size: clamp(90px, 17vw, 250px);
+  line-height: .72;
+  margin: 80px 0 0;
+  letter-spacing: -10px;
+  transform: rotate(-3deg);
+}
+
+.hero h1 span {
+  color: transparent;
+  -webkit-text-stroke: 2px white;
+}
+/* =========================
+   EXTRA NAILZBYTOMMY STYLE
+========================= */
+
+.hero::before {
+  content: "01";
+  position: absolute;
+  right: -30px;
+  bottom: -100px;
+
+  font-family: "Archivo Black", sans-serif;
+  font-size: 420px;
+
+  color: transparent;
+  -webkit-text-stroke: 2px #222;
+
+  transform: rotate(-10deg);
+}
+
+.hero-small {
+  font-size: 11px;
+  letter-spacing: 4px;
+  border-left: 3px solid white;
+  padding-left: 12px;
+}
+
+.hero-description {
+  position: absolute;
+  right: 7vw;
+  bottom: 80px;
+
+  width: 220px;
+
+  font-size: 11px;
+  line-height: 1.8;
+
+  border-left: 2px solid white;
+  padding-left: 15px;
+}
+
+.scribble {
+  position: absolute;
+  color: white;
+  font-size: 70px;
+  transform: rotate(-15deg);
+}
+
+.scribble-one {
+  top: 120px;
+  right: 10%;
+}
+
+.circle-button {
+  position: absolute;
+
+  right: 7vw;
+  top: 150px;
+
+  width: 140px;
+  height: 140px;
+
+  border: 3px solid white;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  font-family: "Archivo Black", sans-serif;
+  font-size: 12px;
+
+  transform: rotate(10deg);
+
+  transition: .3s;
+}
+
+.circle-button:hover {
+  background: white;
+  color: black;
+  transform: rotate(-8deg) scale(1.1);
+}
+
+
+/* =========================
+   MOVING BAR
+========================= */
+
+.marquee {
+  background: white;
+
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+
+  overflow: hidden;
+  white-space: nowrap;
+
+  padding: 15px 0;
+
+  transform: rotate(-1deg) scale(1.03);
+
+  position: relative;
+  z-index: 5;
+}
+
+.marquee div {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 25px;
+
+  animation: moveText 12s linear infinite;
+}
+
+@keyframes moveText {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
+/* =========================
+   SECTIONS
+========================= */
+
+.about,
+.work,
+.services,
+.contact {
+  padding: 120px 8vw;
+  position: relative;
+}
+
+.section-number {
+  font-size: 10px;
+  letter-spacing: 4px;
+  margin-bottom: 40px;
+}
+
+
+/* =========================
+   ABOUT
+========================= */
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+
+  background: #f3f0e9;
+}
+
+.about::before {
+  content: "";
+
+  position: absolute;
+
+  width: 260px;
+  height: 260px;
+
+  border: 3px solid black;
+  border-radius: 50%;
+
+  right: 8%;
+  top: 100px;
+
+  transform: rotate(20deg);
+}
+
+.about::after {
+  content: "×";
+
+  position: absolute;
+
+  right: 13%;
+  top: 130px;
+
+  font-family: "Archivo Black", sans-serif;
+  font-size: 150px;
+
+  transform: rotate(15deg);
+}
+
+.about-title {
+  position: relative;
+  z-index: 2;
+}
+
+.about-title h2 {
+  font-family: "Archivo Black", sans-serif;
+
+  font-size: clamp(70px, 10vw, 150px);
+
+  line-height: .7;
+
+  margin: 0;
+
+  letter-spacing: -7px;
+
+  transform: rotate(-4deg);
+}
+
+.star {
+  display: block;
+
+  font-size: 100px;
+
+  margin-top: 50px;
+
+  transform: rotate(20deg);
+}
+
+.about-text {
+  max-width: 500px;
+
+  font-size: 14px;
+  line-height: 1.8;
+
+  padding-top: 60px;
+
+  position: relative;
+  z-index: 3;
+}
+
+.about-text p {
+  margin-bottom: 30px;
+}
+
+.about-text p:first-child {
+  font-family: "Archivo Black", sans-serif;
+
+  font-size: 22px;
+
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+
+  padding: 15px 0;
+}
+
+
+/* =========================
+   WORK
+========================= */
+
+.work {
+  background: white;
+
+  border-top: 4px solid black;
+}
+
+.work-title {
+  font-family: "Archivo Black", sans-serif;
+
+  font-size: clamp(80px, 13vw, 180px);
+
+  line-height: .7;
+
+  margin: 0 0 100px;
+
+  letter-spacing: -8px;
+
+  transform: rotate(3deg);
+}
+
+.work-title span {
+  color: transparent;
+  -webkit-text-stroke: 3px black;
+}
+
+.gallery {
+  display: grid;
+
+  grid-template-columns: 1.2fr .8fr;
+
+  gap: 45px;
+}
+
+.nail-card {
+  position: relative;
+
+  background: #f3f0e9;
+
+  padding: 12px;
+
+  border: 3px solid black;
+
+  transition: .3s;
+}
+
+.nail-card:hover {
+  transform: rotate(-2deg) scale(1.02);
+}
+
+.card-large {
+  transform: translateY(60px) rotate(-2deg);
+}
+
+.card-wide {
+  transform: translateY(30px) rotate(2deg);
+}
+
+.nail-card img {
+  width: 100%;
+
+  height: 500px;
+
+  object-fit: cover;
+
+  display: block;
+
+  border: 2px solid black;
+
+  filter: grayscale(100%);
+
+  transition: .4s;
+}
+
+.nail-card:hover img {
+  filter: grayscale(0%);
+}
+
+.card-info {
+  display: flex;
+
+  justify-content: space-between;
+
+  padding: 15px 5px 5px;
+
+  font-size: 10px;
+
+  letter-spacing: 2px;
+}
+
+.card-info strong {
+  font-family: "Archivo Black", sans-serif;
+}
+
+
+/* =========================
+   PRICE SECTION
+========================= */
+
+.services {
+  background: #050505;
+
+  color: white;
+
+  border-top: 4px solid black;
+
+  overflow: hidden;
+}
+
+.services::before {
+  content: "€";
+
+  position: absolute;
+
+  right: -70px;
+  top: -100px;
+
+  font-family: "Archivo Black", sans-serif;
+
+  font-size: 500px;
+
+  color: transparent;
+
+  -webkit-text-stroke: 2px #222;
+
+  transform: rotate(12deg);
+}
+
+.prices-title {
+  font-family: "Archivo Black", sans-serif;
+
+  font-size: clamp(80px, 13vw, 180px);
+
+  line-height: .7;
+
+  letter-spacing: -8px;
+
+  margin: 0 0 100px;
+
+  transform: rotate(-3deg);
+
+  position: relative;
+  z-index: 2;
+}
+
+.prices-title span {
+  color: transparent;
+
+  -webkit-text-stroke: 3px white;
+}
+
+.price-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 50px 35px;
+
+  position: relative;
+  z-index: 3;
+}
+
+.price-card {
+  position: relative;
+
+  border: 3px solid white;
+
+  padding: 15px;
+
+  background: #050505;
+
+  transition: .3s;
+}
+
+.price-card:nth-child(2) {
+  transform: rotate(2deg) translateY(40px);
+}
+
+.price-card:nth-child(3) {
+  transform: rotate(-2deg) translateY(-20px);
+}
+
+.price-card:nth-child(4) {
+  transform: rotate(3deg) translateY(40px);
+}
+
+.price-card:hover {
+  transform: rotate(0deg) scale(1.02);
+}
+
+.price-image {
+  width: 100%;
+
+  height: 430px;
+
+  overflow: hidden;
+
+  border: 2px solid white;
+}
+
+.price-image img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  filter: grayscale(100%);
+
+  transition: .4s;
+}
+
+.price-card:hover img {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
+
+.price-top {
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-top: 18px;
+
+  font-size: 10px;
+
+  letter-spacing: 2px;
+}
+
+.price-card h3 {
+  font-family: "Archivo Black", sans-serif;
+
+  font-size: 27px;
+
+  line-height: .9;
+
+  margin: 18px 0 10px;
+}
+
+.price-card p {
+  font-size: 11px;
+
+  line-height: 1.7;
+
+  max-width: 400px;
+
+  margin-bottom: 35px;
+}
+
+.tier-symbol {
+  position: absolute;
+
+  right: 20px;
+  bottom: 10px;
+
+  font-family: "Archivo Black", sans-serif;
+
+  font-size: 70px;
+
+  color: transparent;
+
+  -webkit-text-stroke: 1px white;
+
+  transform: rotate(10deg);
+}
+
+
+/* =========================
+   CONTACT
+========================= */
+
+.contact {
+  background: #f3f0e9;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 80px;
+
+  border-top: 4px solid black;
+}
+
+.contact::before {
+  content: "✳";
+
+  position: absolute;
+
+  right: 8%;
+  top: 30px;
+
+  font-size: 180px;
+
+  transform: rotate(20deg);
+}
+
+.contact h2 {
+  font-family: "Archivo Black", sans-serif;
+
+  font-size: clamp(70px, 10vw, 150px);
+
+  line-height: .7;
+
+  letter-spacing: -7px;
+
+  margin-top: 50px;
+
+  transform: rotate(-3deg);
+
+  position: relative;
+  z-index: 2;
+}
+
+.contact h2 span {
+  color: transparent;
+
+  -webkit-text-stroke: 3px black;
+}
+
+.contact-right {
+  padding-top: 100px;
+
+  font-size: 13px;
+
+  position: relative;
+  z-index: 3;
+}
+
+.book-button {
+  display: inline-block;
+
+  background: black;
+
+  color: white;
+
+  padding: 25px 30px;
+
+  margin: 30px 0 70px;
+
+  font-family: "Archivo Black", sans-serif;
+
+  font-size: 14px;
+
+  border: 3px solid black;
+
+  transform: rotate(-3deg);
+
+  transition: .2s;
+}
+
+.book-button:hover {
+  background: white;
+  color: black;
+
+  transform: rotate(3deg) scale(1.05);
+}
+
+.socials {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 15px;
+}
+
+.socials a {
+  font-size: 11px;
+
+  text-decoration: underline;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  background: black;
+
+  color: white;
+
+  padding: 25px 5vw;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  font-size: 9px;
+
+  letter-spacing: 2px;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+  .nav-links a:not(.nav-book) {
+    display: none;
+  }
+
+  .hero {
+    min-height: 620px;
+    padding: 60px 5vw;
+  }
+
+  .hero h1 {
+    font-size: 85px;
+    letter-spacing: -6px;
+  }
+
+  .hero::before {
+    font-size: 250px;
+  }
+
+  .circle-button {
+    width: 105px;
+    height: 105px;
+
+    right: 5vw;
+    top: 230px;
+  }
+
+  .about,
+  .contact {
+    grid-template-columns: 1fr;
+    gap: 30px;
+
+    padding: 80px 5vw;
+  }
+
+  .about::before,
+  .about::after,
+  .contact::before {
+    opacity: .3;
+  }
+
+  .about-text {
+    padding-top: 20px;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .card-large,
+  .card-wide {
+    transform: none;
+  }
+
+  .nail-card img {
+    height: 420px;
+  }
+
+  .services {
+    padding: 80px 5vw;
+  }
+
+  .price-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .price-card:nth-child(2),
+  .price-card:nth-child(3),
+  .price-card:nth-child(4) {
+    transform: none;
+  }
+
+  .price-image {
+    height: 400px;
+  }
+
+  .contact-right {
+    padding-top: 0;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 10px;
+    .nail-card img,
+.price-image img {
+  filter: grayscale(0%);
+}
+  
+}
