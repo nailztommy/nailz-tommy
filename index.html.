@@ -1,0 +1,546 @@
+<link rel="stylesheet" href="style.css">
+
+<div class="site">
+
+  <!-- =========================
+       NAVIGATION
+  ========================== -->
+
+  <nav class="nav">
+
+    <div class="logo">
+      NAILZBY<br>
+      <span>TOMMY</span>
+    </div>
+
+    <div class="nav-links">
+
+      <a href="#work">WORK</a>
+
+      <a href="#prices">PRICES</a>
+
+      <a href="#about">ABOUT</a>
+
+      <a
+        href="https://wa.me/JOUWNUMMER"
+        target="_blank"
+        class="nav-book"
+      >
+        BOOK →
+      </a>
+
+    </div>
+
+  </nav>
+
+
+  <!-- =========================
+       HERO
+  ========================== -->
+
+  <section class="hero">
+
+    <div class="hero-small">
+      GEL X NAILS / NAIL ART / WAGENINGEN
+    </div>
+
+    <h1>
+      NAILZ<br>
+      <span>BY TOMMY</span>
+    </h1>
+
+    <div class="scribble scribble-one">
+      ✦ ✦ ✦
+    </div>
+
+    <div class="hero-description">
+
+      GEL X NAILS<br>
+      & NAIL ART<br>
+      IN WAGENINGEN
+
+    </div>
+
+    <a
+      href="#work"
+      class="circle-button"
+    >
+      SEE<br>
+      MY<br>
+      WORK
+    </a>
+
+  </section>
+
+
+  <!-- =========================
+       MOVING TEXT
+  ========================== -->
+
+  <div class="marquee">
+
+    <div>
+      NAILZBYTOMMY ✦ GEL X ✦ NAIL ART ✦ WAGENINGEN ✦
+      NAILZBYTOMMY ✦ GEL X ✦ NAIL ART ✦ WAGENINGEN ✦
+    </div>
+
+  </div>
+
+
+  <!-- =========================
+       ABOUT
+  ========================== -->
+
+  <section
+    class="about"
+    id="about"
+  >
+
+    <div>
+
+      <div class="section-number">
+        01 / ABOUT ME
+      </div>
+
+      <div class="about-title">
+
+        <h2>
+          ABOUT<br>
+          ME
+        </h2>
+
+        <span class="star">
+          ✳
+        </span>
+
+      </div>
+
+    </div>
+
+
+    <div class="about-text">
+
+      <p>
+        HI! I'M <strong>TOMMY</strong>.
+      </p>
+
+      <p>
+        NAILZBYTOMMY IS MY LITTLE NAIL SPACE WHERE CREATIVITY HAS NO LIMITS.
+      </p>
+
+      <p>
+        FROM SIMPLE ONE-COLOR SETS
+        TO COMPLEX DESIGNS WITH
+        CHARMS AND 3D DETAILS.
+      </p>
+
+      <p>
+        EVERY SET IS MADE TO STAND OUT.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       MY WORK
+  ========================== -->
+
+  <section
+    class="work"
+    id="work"
+  >
+
+    <div class="section-number">
+      02 / MY WORK
+    </div>
+
+    <h2 class="work-title">
+      MY<br>
+      <span>WORK</span>
+    </h2>
+
+
+    <div class="gallery">
+
+
+      <!-- FOTO 1 -->
+
+      <div class="nail-card card-large">
+
+        <img
+          src="https://iili.io/n0HrmMb.md.jpg"
+          alt="Gel X nail art"
+        >
+
+        <div class="card-info">
+
+          <span>01</span>
+
+          <strong>
+            
+          </strong>
+
+        </div>
+
+      </div>
+
+
+      <!-- FOTO 2 -->
+
+      <div class="nail-card">
+
+        <img
+        <img src="https://i.ibb.co/6J1B02F4/nagel-fotos-site.jpg"
+          alt="Gel X nail art"
+        >
+
+        <div class="card-info">
+
+          <span>02</span>
+
+          <strong>
+            
+          </strong>
+
+        </div>
+
+      </div>
+
+
+      <!-- FOTO 3 -->
+
+      <div class="nail-card">
+
+        <img
+          src="https://i.ibb.co/kdGfkSP/d9e6ffbb-7293-47db-8c65-8db0fbd18be3.jpg"
+          alt="Gel X nail art"
+        >
+
+        <div class="card-info">
+
+          <span>03</span>
+
+          <strong>
+            
+          </strong>
+
+        </div>
+
+      </div>
+
+
+      <!-- FOTO 4 -->
+
+      <div class="nail-card card-wide">
+
+        <img
+          src="https://i.ibb.co/mCDJD1Tm/b44bc7bd-e217-430e-bd90-b6169de0d49e.jpg"
+          alt="Gel X nail art"
+        >
+
+        <div class="card-info">
+
+          <span>04</span>
+
+          <strong>
+            
+          </strong>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       PRICES
+  ========================== -->
+
+  <section
+    class="services"
+    id="prices"
+  >
+
+    <div class="section-number">
+      03 / PRICES
+    </div>
+
+
+    <h2 class="prices-title">
+      NAIL<br>
+      <span>MENU</span>
+    </h2>
+
+
+    <div class="price-grid">
+
+
+      <!-- TIER 1 -->
+
+      <article class="price-card">
+
+        <div class="price-image">
+
+          <img
+            src="https://i.ibb.co/MyZJQpST/3e31c574-f916-47a2-8a86-4886af010e23.jpg"
+            alt="Tier 1 one color nails"
+          >
+
+        </div>
+
+
+        <div class="price-top">
+
+          <span>
+            TIER 01
+          </span>
+
+          <span>
+            €25
+          </span>
+
+        </div>
+
+
+        <h3>
+          ONE COLOR
+        </h3>
+
+
+        <p>
+          One solid color on your
+          Gel X set.
+        </p>
+
+
+        <div class="tier-symbol">
+          01
+        </div>
+
+      </article>
+
+
+      <!-- TIER 2 -->
+
+      <article class="price-card">
+
+        <div class="price-image">
+
+          <img
+            src="https://i.ibb.co/9m4vKxkG/186e1e3b-7a63-46d6-a1ba-e75ed3f06abb.jpg"
+            alt="Tier 2 French tips and small designs"
+          >
+
+        </div>
+
+
+        <div class="price-top">
+
+          <span>
+            TIER 02
+          </span>
+
+          <span>
+            €25–30
+          </span>
+
+        </div>
+
+
+        <h3>
+          FRENCH / SMALL DESIGNS
+        </h3>
+
+
+        <p>
+          French tips, small designs
+          and simple nail art.
+        </p>
+
+
+        <div class="tier-symbol">
+          02
+        </div>
+
+      </article>
+
+
+      <!-- TIER 3 -->
+
+      <article class="price-card">
+
+        <div class="price-image">
+
+          <img
+            src="https://i.ibb.co/gGn5gFc/Whats-App-Image-2026-10-04-at-20-46-20.jpg"
+            alt="Tier 3 complex nail art"
+          >
+
+        </div>
+
+
+        <div class="price-top">
+
+          <span>
+            TIER 03
+          </span>
+
+          <span>
+            €30–50
+          </span>
+
+        </div>
+
+
+        <h3>
+          COMPLEX ART
+        </h3>
+
+
+        <p>
+          Complex designs, small
+          charms or 3D effects.
+        </p>
+
+
+        <div class="tier-symbol">
+          03
+        </div>
+
+      </article>
+
+
+      <!-- TIER 4 -->
+
+      <article class="price-card">
+
+        <div class="price-image">
+
+          <img
+            src="https://i.ibb.co/4g54vyqH/fb2d9189-54ad-4c33-820e-3ba4068c357f.jpg"
+            alt="Tier 4 extensive nail art"
+          >
+
+        </div>
+
+
+        <div class="price-top">
+
+          <span>
+            TIER 04
+          </span>
+
+          <span>
+            €50+
+          </span>
+
+        </div>
+
+
+        <h3>
+          MAXIMALIST
+        </h3>
+
+
+        <p>
+          Very detailed sets with
+          lots of charms and 3D effects.
+        </p>
+
+
+        <div class="tier-symbol">
+          04
+        </div>
+
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       BOOKING
+  ========================== -->
+
+  <section
+    class="contact"
+    id="contact"
+  >
+
+    <div class="contact-left">
+
+      <span>
+        04 / BOOK AN APPOINTMENT
+      </span>
+
+      <h2>
+        LET'S<br>
+        GET<br>
+        <span>NAILED.</span>
+      </h2>
+
+    </div>
+
+
+    <div class="contact-right">
+
+      <p>
+        GEL X NAILS & NAIL ART
+      </p>
+
+      <p>
+        WAGENINGEN, NL
+      </p>
+
+
+      <!-- WHATSAPP BUTTON -->
+
+      <a
+        href="https://wa.me/31625428163"
+        class="book-button"
+        target="_blank"
+      >
+        BOOK VIA WHATSAPP →
+      </a>
+
+<div class="socials">
+  <a href="https://www.instagram.com/nails_tommy/" target="_blank">
+    @nails_tommy ↗
+  </a>
+
+  <a href="https://www.tiktok.com/@nailz_tommy" target="_blank">
+    @nailz_tommy ↗
+  </a>
+</div>
+      
+
+        
+        
+   
+
+  </section>
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
+  <footer>
+
+    <div>
+      © 2026 NAILZBYTOMMY
+    </div>
+
+    <div>
+      GEL X / NAIL ART / WAGENINGEN
+    </div>
+
+  </footer>
+
+</div>
